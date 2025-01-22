@@ -24,7 +24,7 @@ def generate_monthly_summary(dataframe,month):
     return summary
 
 #Read the Dataset
-df = pd.read_excel('C:\\Users\\sathish\\Downloads\\covid-19-state-level-data.xlsx')
+df = pd.read_excel('C:\\Users\\Lokeshwaran\\Downloads\\covid-19-state-level-data.xlsx')
 
 #Convert the date column to datetime format
 df['date'] = pd.to_datetime(df['date'])
